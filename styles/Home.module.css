@@ -1,0 +1,198 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  height: 100vh;
+  font-family: Consolas;
+}
+
+.header {
+font-size: 1.5rem;
+font-weight: 700;
+color: #1E1E1E;
+margin: 1rem;
+}
+
+.main {
+  margin-top: 4rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.footer h3{
+  padding: 1rem;
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: left;
+}
+
+.footer_description{
+  margin: 1rem;
+}
+
+.title a {
+  color: #323232;
+  text-decoration: none;
+}
+
+.title {
+  line-height: 1.15;
+  font-size: 2.5rem;
+  color: #17D1A5;
+  font-weight: 100;
+}
+
+.text_job {
+color: #323232;
+font-weight: 700;
+}
+
+.title_pages {
+  margin: 0;
+  line-height: 1.375;
+  font-size: 1.7rem;
+  color: #323232;
+}
+
+.description_pages {
+  margin: 1rem;
+  line-height: 1.375;
+  color: #323232;
+  font-size: 1.375rem;
+}
+
+.title, 
+.title_pages,
+.description {
+margin: 0.75rem;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.375rem;
+}
+
+.button {
+  margin: 1rem;
+  background: #ffffff;
+  max-width: 220px;
+  padding: 0.45rem;
+  line-height: 2;
+  font-size: 1.1rem;
+  font-family: Consolas;
+  font-weight: 700;
+  border-radius: 4px;
+  margin-top: 2rem;
+}
+
+.grid_companys {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-top: 4rem;
+}
+
+.company1 {
+  padding: 1rem;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.company2 {
+  padding: 1rem;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 100%;
+}
+
+.company3 {
+  padding: 1rem;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 100%;
+}
+
+.grid_projects {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-top: 4rem;
+}
+
+.card1 {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  background: #b27a2623;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.card2 {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  background: #26b2911f;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 100%;
+}
+
+.card3 {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  background: #90909027;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 100%;
+}
+
+.card4 {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  background: #770eb813;
+  text-decoration: none;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.card5 {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  background: #182fff15;
+  text-decoration: none;
+  border-radius: 2px;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+}
