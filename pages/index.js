@@ -36,12 +36,20 @@ export default function Home() {
           </p>
 
           <a href="" className={styles.company1}>
-            <h2>Company Name</h2>
+            <ul className={styles.timeline}>
+              <li>
+                <h2>Company Name</h2>
+              </li>
+            </ul>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
           </a>
 
           <a href="" className={styles.company2}>
-            <h2>Company Name </h2>
+          <ul className={styles.timeline}>
+              <li>
+                <h2>Company Name</h2>
+              </li>
+            </ul>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
           </a>
 
@@ -49,7 +57,11 @@ export default function Home() {
             href=""
             className={styles.company3}
           >
-            <h2>Company Name</h2>
+             <ul className={styles.timeline}>
+              <li>
+                <h2>Company Name</h2>
+              </li>
+            </ul>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
           </a>
         </div>
@@ -64,12 +76,12 @@ export default function Home() {
           </p>
 
           <a href="" className={styles.card1}>
-            <h2>01. Learn App &rarr;</h2>
+            <h2>01. Learn App</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
           </a>
 
           <a href="" className={styles.card2}>
-            <h2>02. Camper App &rarr;</h2>
+            <h2>02. Camper App</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
           </a>
 
@@ -77,7 +89,7 @@ export default function Home() {
             href=""
             className={styles.card3}
           >
-            <h2>03. Easy Bank &rarr;</h2>
+            <h2>03. Easy Bank</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
           </a>
 
@@ -85,7 +97,7 @@ export default function Home() {
             href=""
             className={styles.card4}
           >
-            <h2>04. Big Bus &rarr;</h2>
+            <h2>04. Big Bus</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.
             </p>
@@ -95,7 +107,7 @@ export default function Home() {
             href=""
             className={styles.card5}
           >
-            <h2>05. Go Travel &rarr;</h2>
+            <h2>05. Go Travel</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.
             </p>
