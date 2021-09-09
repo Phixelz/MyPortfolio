@@ -1,6 +1,6 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Styles.module.css'
 
-export default function Home() {
+export default function Main () {
   return (
     <div className={styles.container}>
 
@@ -8,13 +8,13 @@ export default function Home() {
 
       <header className={styles.header}>
         <p>Phillipi Alves.</p>
-      </header>
+      </header> 
 
       {/*HERO*/}
 
-      <main className={styles.main}>
+      <main className={styles.hero}>
         <h1 className={styles.title}>
-          Eu sou Phillipi,<b className={styles.text_job}>User Experience Analyst Senior</b>
+          Eu sou Phillipi,<b className={styles.text_job}>User Experience Analyst Pleno </b>
         </h1>
 
         <p className={styles.description}>
@@ -25,6 +25,7 @@ export default function Home() {
 
         <button className={styles.button}>
           Download Resume</button>
+          </main>
 
         {/*GRID COMPANYS*/}
 
@@ -38,31 +39,32 @@ export default function Home() {
           <a href="" className={styles.company1}>
             <ul className={styles.timeline}>
               <li>
-                <h2>Company Name</h2>
+                <h2>UX Designer Pleno - Google</h2>
               </li>
-            </ul>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
+            </ul>
           </a>
 
           <a href="" className={styles.company2}>
-          <ul className={styles.timeline}>
+            <ul className={styles.timeline}>
               <li>
-                <h2>Company Name</h2>
+                <h2>UX Designer - Facebook</h2>
               </li>
-            </ul>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
+            </ul>
           </a>
 
           <a
             href=""
             className={styles.company3}
           >
-             <ul className={styles.timeline}>
+            <ul className={styles.timeline}>
               <li>
-                <h2>Company Name</h2>
+                <h2>UI Designer - IBM</h2>
               </li>
-            </ul>
+            
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
+            </ul>
           </a>
         </div>
 
@@ -113,7 +115,6 @@ export default function Home() {
             </p>
           </a>
         </div>
-      </main>
 
       {/*FOOTER*/}
 
@@ -125,4 +126,4 @@ export default function Home() {
       </footer>
     </div>
   )
-}
+}    

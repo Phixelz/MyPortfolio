@@ -1,11 +1,9 @@
 .container {
     min-height: 100vh;
-    padding: 0 0.2rem;
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    height: 100vh;
     font-family: Consolas;
 }
 
@@ -16,7 +14,7 @@
     margin: 1rem;
 }
 
-.main {
+.hero {
     margin-top: 4rem;
     flex: 1;
     display: flex;
@@ -33,6 +31,7 @@
     flex-wrap: wrap;
     justify-content: left;
     align-items: left;
+    padding-top: 4rem;
 }
 
 .footer_description {
@@ -67,7 +66,7 @@
     margin: 1rem;
     line-height: 1.375;
     color: #323232;
-    font-size: 1.375rem;
+    font-size: 1.275rem;
 }
 
 .title,
@@ -75,6 +74,7 @@
 .description {
     margin: 0.75rem;
 }
+
 
 .description {
     line-height: 1.5;
@@ -91,16 +91,14 @@
     font-family: Consolas;
     font-weight: 700;
     border-radius: 4px;
-    margin-top: 2rem;
 }
 
 .grid_companys {
     display: flex;
     align-items: left;
-    justify-content: left;
     flex-wrap: wrap;
-    max-width: 100%;
     margin-top: 4rem;
+
 }
 
 .company1 {
@@ -108,7 +106,6 @@
     text-align: left;
     text-decoration: none;
     border-radius: 2px;
-    transition: color 0.15s ease, border-color 0.15s ease;
     width: 100%;
     margin-top: 2rem;
 }
@@ -118,7 +115,6 @@
     text-align: left;
     text-decoration: none;
     border-radius: 2px;
-    transition: color 0.15s ease, border-color 0.15s ease;
     width: 100%;
 }
 
@@ -127,7 +123,6 @@
     text-align: left;
     text-decoration: none;
     border-radius: 2px;
-    transition: color 0.15s ease, border-color 0.15s ease;
     width: 100%;
 }
 
@@ -136,7 +131,6 @@
     align-items: left;
     justify-content: left;
     flex-wrap: wrap;
-    max-width: 100%;
     margin-top: 4rem;
 }
 
@@ -147,7 +141,6 @@
     background: #b27a2623;
     text-decoration: none;
     border-radius: 2px;
-    transition: color 0.15s ease, border-color 0.15s ease;
     width: 100%;
     margin-top: 4rem;
 }
@@ -159,7 +152,6 @@
     background: #26b2911f;
     text-decoration: none;
     border-radius: 2px;
-    transition: color 0.15s ease, border-color 0.15s ease;
     width: 100%;
 }
 
@@ -170,7 +162,6 @@
     background: #90909027;
     text-decoration: none;
     border-radius: 2px;
-    transition: color 0.15s ease, border-color 0.15s ease;
     width: 100%;
 }
 
@@ -198,7 +189,9 @@
     margin: 1rem;
     padding: 0;
     text-align: left;
-    text-decoration: none;
 }
 
-@media (max-width: 800px) {}
+@media (min-width: 1200px) {
+
+   
+}
