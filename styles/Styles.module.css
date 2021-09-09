@@ -15,11 +15,11 @@
 }
 
 .hero {
-    margin-top: 4rem;
+    min-height: 100vh;
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     align-items: left;
 }
 
@@ -98,6 +98,7 @@
     align-items: left;
     flex-wrap: wrap;
     margin-top: 4rem;
+    padding-top: 4rem;
 
 }
 
@@ -193,5 +194,5 @@
 
 @media (min-width: 1200px) {
 
-   
+
 }

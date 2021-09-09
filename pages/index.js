@@ -1,6 +1,6 @@
 import styles from '../styles/Styles.module.css'
 
-export default function Main () {
+export default function Main() {
   return (
     <div className={styles.container}>
 
@@ -8,7 +8,7 @@ export default function Main () {
 
       <header className={styles.header}>
         <p>Phillipi Alves.</p>
-      </header> 
+      </header>
 
       {/*HERO*/}
 
@@ -25,96 +25,96 @@ export default function Main () {
 
         <button className={styles.button}>
           Download Resume</button>
-          </main>
+      </main>
 
-        {/*GRID COMPANYS*/}
+      {/*GRID COMPANYS*/}
 
-        <div className={styles.grid_companys}>
-          <h1 className={styles.title_pages}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+      <div className={styles.grid_companys}>
+        <h1 className={styles.title_pages}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
 
-          <p className={styles.description_pages}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. {' '}
+        <p className={styles.description_pages}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. {' '}
+        </p>
+
+        <a href="" className={styles.company1}>
+          <ul className={styles.timeline}>
+            <li>
+              <h2>UX Designer Pleno - Google</h2>
+            </li>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
+          </ul>
+        </a>
+
+        <a href="" className={styles.company2}>
+          <ul className={styles.timeline}>
+            <li>
+              <h2>UX Designer - Facebook</h2>
+            </li>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
+          </ul>
+        </a>
+
+        <a
+          href=""
+          className={styles.company3}
+        >
+          <ul className={styles.timeline}>
+            <li>
+              <h2>UI Designer - IBM</h2>
+            </li>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
+          </ul>
+        </a>
+      </div>
+
+      {/*GRID PROJECTS*/}
+
+      <div className={styles.grid_projects}>
+        <h1 className={styles.title_pages}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+
+        <p className={styles.description_pages}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. {' '}
+        </p>
+
+        <a href="" className={styles.card1}>
+          <h2>01. Learn App</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
+        </a>
+
+        <a href="" className={styles.card2}>
+          <h2>02. Camper App</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
+        </a>
+
+        <a
+          href=""
+          className={styles.card3}
+        >
+          <h2>03. Easy Bank</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
+        </a>
+
+        <a
+          href=""
+          className={styles.card4}
+        >
+          <h2>04. Big Bus</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.
           </p>
+        </a>
 
-          <a href="" className={styles.company1}>
-            <ul className={styles.timeline}>
-              <li>
-                <h2>UX Designer Pleno - Google</h2>
-              </li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
-            </ul>
-          </a>
-
-          <a href="" className={styles.company2}>
-            <ul className={styles.timeline}>
-              <li>
-                <h2>UX Designer - Facebook</h2>
-              </li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
-            </ul>
-          </a>
-
-          <a
-            href=""
-            className={styles.company3}
-          >
-            <ul className={styles.timeline}>
-              <li>
-                <h2>UI Designer - IBM</h2>
-              </li>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
-            </ul>
-          </a>
-        </div>
-
-        {/*GRID PROJECTS*/}
-
-        <div className={styles.grid_projects}>
-          <h1 className={styles.title_pages}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-
-          <p className={styles.description_pages}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. {' '}
+        <a
+          href=""
+          className={styles.card5}
+        >
+          <h2>05. Go Travel</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.
           </p>
-
-          <a href="" className={styles.card1}>
-            <h2>01. Learn App</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
-          </a>
-
-          <a href="" className={styles.card2}>
-            <h2>02. Camper App</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
-          </a>
-
-          <a
-            href=""
-            className={styles.card3}
-          >
-            <h2>03. Easy Bank</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
-          </a>
-
-          <a
-            href=""
-            className={styles.card4}
-          >
-            <h2>04. Big Bus</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.
-            </p>
-          </a>
-
-          <a
-            href=""
-            className={styles.card5}
-          >
-            <h2>05. Go Travel</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.
-            </p>
-          </a>
-        </div>
+        </a>
+      </div>
 
       {/*FOOTER*/}
 
@@ -126,4 +126,4 @@ export default function Main () {
       </footer>
     </div>
   )
-}    
+}
