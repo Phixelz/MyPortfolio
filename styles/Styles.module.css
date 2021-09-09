@@ -1,6 +1,6 @@
+
 .container {
     min-height: 100vh;
-    display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: left;
@@ -23,21 +23,6 @@
     align-items: left;
 }
 
-.footer h3 {
-    padding: 1rem;
-    width: 100%;
-    height: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: left;
-    padding-top: 4rem;
-}
-
-.footer_description {
-    margin: 1rem;
-}
-
 .title a {
     color: #323232;
     text-decoration: none;
@@ -51,8 +36,7 @@
 }
 
 .text_job {
-    color: #323232;
-    font-weight: 700;
+    color: #323232;   
 }
 
 .title_pages {
@@ -75,7 +59,6 @@
     margin: 0.75rem;
 }
 
-
 .description {
     line-height: 1.5;
     font-size: 1.375rem;
@@ -85,12 +68,12 @@
     margin: 1rem;
     background: #ffffff;
     max-width: 220px;
-    padding: 0.45rem;
-    line-height: 2;
+    padding: 1rem;
     font-size: 1.1rem;
     font-family: Consolas;
     font-weight: 700;
     border-radius: 4px;
+    margin-top: 1.5rem;
 }
 
 .grid_companys {
@@ -184,6 +167,16 @@
     text-decoration: none;
     border-radius: 2px;
     width: 100%;
+}
+
+.footer  {
+    padding: 1rem;
+    justify-content: left;
+    align-items: left;
+}
+
+.footer_description  {
+    line-height: 0.375rem;
 }
 
 .timeline {

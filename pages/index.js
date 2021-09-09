@@ -1,4 +1,4 @@
-import styles from '../styles/Styles.module.css'
+import styles from '../styles/styles.module.css'
 
 export default function Main() {
   return (
@@ -18,7 +18,7 @@ export default function Main() {
         </h1>
 
         <p className={styles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. {' '}
+          Lorem ipsum dolor sit amet, consectetur adipiscing. A adipiscing ac porta egestas. {' '}
         </p>
 
         {/*BUTTON RESUME*/}
@@ -55,9 +55,7 @@ export default function Main() {
         </a>
 
         <a
-          href=""
-          className={styles.company3}
-        >
+          href="" className={styles.company3}>
           <ul className={styles.timeline}>
             <li>
               <h2>UI Designer - IBM</h2>
@@ -79,6 +77,7 @@ export default function Main() {
 
         <a href="" className={styles.card1}>
           <h2>01. Learn App</h2>
+          <i data-feather="circle"></i>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
         </a>
 
@@ -118,12 +117,12 @@ export default function Main() {
 
       {/*FOOTER*/}
 
-      <footer className={styles.footer}>
-        <h3>Phillipi Alves.</h3>
-        <p className={styles.footer_description}>
+       <footer className={styles.footer}>
+        <h3 className={styles.footer_description}> Phillipi Alves.</h3>
+        <p>
           All rights reserved
         </p>
-      </footer>
+      </footer> 
     </div>
   )
 }
