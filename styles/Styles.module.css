@@ -4,7 +4,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Consolas;
 }
 
 .header {
@@ -29,14 +28,21 @@
 }
 
 .title {
+    margin: 1rem;
     line-height: 1.15;
     font-size: 2.5rem;
     color: #17D1A5;
     font-weight: 100;
 }
 
+.description_hero {
+    margin: 1rem;
+    line-height: 1.5;
+    font-size: 1.375rem;
+}
+
 .text_job {
-    color: #323232;   
+    color: #323232;
 }
 
 .button {
@@ -52,28 +58,19 @@
 }
 
 .title_pages {
-    margin: 0;
+    margin: 1rem;
     line-height: 1.375;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: #323232;
 }
 
 .description_pages {
+    padding-bottom: 2rem;
     margin: 1rem;
     line-height: 1.375;
     color: #323232;
     font-size: 1.275rem;
-}
-
-.title,
-.title_pages,
-.description {
-    margin: 1rem;
-}
-
-.description {
-    line-height: 1.5;
-    font-size: 1.375rem;
+    margin-top: 0;
 }
 
 .grid_companys {
@@ -83,57 +80,30 @@
     padding-bottom: 4rem;
 }
 
-.company1 {
-    padding: 1rem;
-    text-align: left;
-    text-decoration: none;
-    border-radius: 2px;
-    width: 100%;
-    margin-top: 2rem;
-}
-
-.company2 {
-    padding: 1rem;
-    text-align: left;
-    text-decoration: none;
-    border-radius: 2px;
-    width: 100%;
-}
-
-.company3 {
-    padding: 1rem;
-    text-align: left;
-    text-decoration: none;
-    border-radius: 2px;
-}
-
 .grid_projects {
-    flex-wrap: wrap;
-    display: flex;
+    flex-direction: column;
     align-items: left;
     justify-content: left;
-    margin-top: 4rem;
+    padding-top: 4rem;
+    display: flex;
 }
 
 .card1 {
     margin: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: left;
     background: #b27a2623;
     text-decoration: none;
     border-radius: 2px;
-    width: 100%;
-    margin-top: 4rem;
 }
 
 .card2 {
     margin: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: left;
     background: #26b2911f;
     text-decoration: none;
     border-radius: 2px;
-    width: 100%;
 }
 
 .card3 {
@@ -143,27 +113,24 @@
     background: #90909027;
     text-decoration: none;
     border-radius: 2px;
-    width: 100%;
 }
 
 .card4 {
     margin: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: left;
     background: #770eb813;
     text-decoration: none;
     border-radius: 2px;
-    width: 100%;
 }
 
 .card5 {
     margin: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: left;
     background: #182fff15;
     text-decoration: none;
     border-radius: 2px;
-    width: 100%;
 }
 
 .footer  {

@@ -1,4 +1,4 @@
-import styles from '../styles/Styles.module.css'
+import styles from '../styles/styles.module.css'
 
 export default function Main() {
   return (
@@ -17,7 +17,7 @@ export default function Main() {
           Eu sou Phillipi,<span className={styles.text_job}>User Experience Analyst Pleno.</span>
         </h1>
 
-        <p className={styles.description}>
+        <p className={styles.description_hero}>
           Lorem ipsum dolor sit amet, consectetur adipiscing. A adipiscing ac porta egestas. {' '}
         </p>
 
@@ -32,11 +32,11 @@ export default function Main() {
       <div className={styles.grid_companys}>
         <h1 className={styles.title_pages}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
 
-        <p className={styles.description}>
+        <p className={styles.description_pages}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. {' '}
         </p>
 
-        <a href="" className={styles.company1}>
+        <a href="">
           <ul className={styles.timeline}>
             <li>
               <h2>UX Designer Pleno - Google</h2>
@@ -45,7 +45,7 @@ export default function Main() {
           </ul>
         </a>
 
-        <a href="" className={styles.company2}>
+        <a href="">
           <ul className={styles.timeline}>
             <li>
               <h2>UX Designer - Facebook</h2>
@@ -55,7 +55,7 @@ export default function Main() {
         </a>
 
         <a
-          href="" className={styles.company3}>
+          href="">
           <ul className={styles.timeline}>
             <li>
               <h2>UI Designer - IBM</h2>
