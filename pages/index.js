@@ -1,4 +1,4 @@
-import styles from '../styles/styles.module.css'
+import styles from '../styles/Styles.module.css'
 
 export default function Main() {
   return (
@@ -14,7 +14,7 @@ export default function Main() {
 
       <main className={styles.hero}>
         <h1 className={styles.title}>
-          Eu sou Phillipi,<b className={styles.text_job}>User Experience Analyst Pleno </b>
+          Eu sou Phillipi,<span className={styles.text_job}>User Experience Analyst Pleno.</span>
         </h1>
 
         <p className={styles.description}>
@@ -32,7 +32,7 @@ export default function Main() {
       <div className={styles.grid_companys}>
         <h1 className={styles.title_pages}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
 
-        <p className={styles.description_pages}>
+        <p className={styles.description}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. {' '}
         </p>
 
@@ -77,7 +77,6 @@ export default function Main() {
 
         <a href="" className={styles.card1}>
           <h2>01. Learn App</h2>
-          <i data-feather="circle"></i>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
         </a>
 

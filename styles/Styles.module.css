@@ -2,8 +2,8 @@
 .container {
     min-height: 100vh;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     font-family: Consolas;
 }
 
@@ -39,6 +39,18 @@
     color: #323232;   
 }
 
+.button {
+    margin: 1rem;
+    background: #ffffff;
+    max-width: 220px;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-family: Consolas;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-top: 2rem;
+}
+
 .title_pages {
     margin: 0;
     line-height: 1.375;
@@ -56,7 +68,7 @@
 .title,
 .title_pages,
 .description {
-    margin: 0.75rem;
+    margin: 1rem;
 }
 
 .description {
@@ -64,25 +76,11 @@
     font-size: 1.375rem;
 }
 
-.button {
-    margin: 1rem;
-    background: #ffffff;
-    max-width: 220px;
-    padding: 1rem;
-    font-size: 1.1rem;
-    font-family: Consolas;
-    font-weight: 700;
-    border-radius: 4px;
-    margin-top: 1.5rem;
-}
-
 .grid_companys {
-    display: flex;
+    background: #FBFBFB;
     align-items: left;
-    flex-wrap: wrap;
-    margin-top: 4rem;
     padding-top: 4rem;
-
+    padding-bottom: 4rem;
 }
 
 .company1 {
@@ -107,20 +105,19 @@
     text-align: left;
     text-decoration: none;
     border-radius: 2px;
-    width: 100%;
 }
 
 .grid_projects {
+    flex-wrap: wrap;
     display: flex;
     align-items: left;
     justify-content: left;
-    flex-wrap: wrap;
     margin-top: 4rem;
 }
 
 .card1 {
     margin: 1rem;
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: left;
     background: #b27a2623;
     text-decoration: none;
@@ -131,7 +128,7 @@
 
 .card2 {
     margin: 1rem;
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: left;
     background: #26b2911f;
     text-decoration: none;
@@ -151,7 +148,7 @@
 
 .card4 {
     margin: 1rem;
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: left;
     background: #770eb813;
     text-decoration: none;
@@ -161,7 +158,7 @@
 
 .card5 {
     margin: 1rem;
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: left;
     background: #182fff15;
     text-decoration: none;
@@ -170,6 +167,7 @@
 }
 
 .footer  {
+    flex-wrap: wrap;
     padding: 1rem;
     justify-content: left;
     align-items: left;
@@ -180,12 +178,9 @@
 }
 
 .timeline {
-    margin: 1rem;
-    padding: 0;
+    padding-top: 2rem;
     text-align: left;
 }
 
-@media (min-width: 1200px) {
-
-
+@media (min-width: 800px) {
 }
