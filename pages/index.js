@@ -1,6 +1,6 @@
 import styles from '../styles/styles.module.css'
 
-export default function Main() {
+export default function main() {
   return (
     <div className={styles.container}>
 
@@ -30,6 +30,7 @@ export default function Main() {
       {/*GRID COMPANYS*/}
 
       <div className={styles.grid_companys}>
+      <p className={styles.page_name}>Sobre mim</p>
         <h1 className={styles.title_pages}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
 
         <p className={styles.description_pages}>
@@ -69,6 +70,7 @@ export default function Main() {
       {/*GRID PROJECTS*/}
 
       <div className={styles.grid_projects}>
+      <p className={styles.page_name}>Projetos</p>
         <h1 className={styles.title_pages}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
 
         <p className={styles.description_pages}>

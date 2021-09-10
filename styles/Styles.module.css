@@ -2,24 +2,20 @@
 .container {
     min-height: 100vh;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .header {
+    margin: 1rem;
     font-size: 1.5rem;
     font-weight: 700;
     color: #1E1E1E;
-    margin: 1rem;
 }
 
 .hero {
     min-height: 100vh;
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
 }
 
 .title a {
@@ -30,7 +26,7 @@
 .title {
     margin: 1rem;
     line-height: 1.15;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #17D1A5;
     font-weight: 100;
 }
@@ -73,6 +69,10 @@
     margin-top: 0;
 }
 
+.page_name {
+    margin: 0 1rem;
+}
+
 .grid_companys {
     background: #FBFBFB;
     align-items: left;
@@ -82,8 +82,6 @@
 
 .grid_projects {
     flex-direction: column;
-    align-items: left;
-    justify-content: left;
     padding-top: 4rem;
     display: flex;
 }
@@ -149,5 +147,13 @@
     text-align: left;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
+
+    .hero, .title {
+        font-size: 3rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
 }
