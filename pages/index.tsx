@@ -15,7 +15,7 @@ const Home: React.FC = () => {
           <p className={styles.header_name}> Phillipi Alves. </p>{' '}
         </header>
 
-        {/*HERO*/}
+        {/*HERO*/}  
 
         <main className={styles.hero}>
           <h1 className={styles.title}>
@@ -108,7 +108,6 @@ const Home: React.FC = () => {
         {/*GRID PROJECTS*/}
 
         <div className={styles.projects_content}>
-
           <code className={styles.page_project_name}> Projetos </code>{' '}
           <h1 className={styles.title_project}> 02. Meus Projetos </h1>
           <p className={styles.description_project}>
@@ -120,7 +119,7 @@ const Home: React.FC = () => {
         <div>
           <section className={styles.grid_cards}>
             <div className={styles.card1}>
-              <a href="">
+              <a href="*/">
                 <h2 className={styles.project_name}> Learn App </h2>{' '}
                 <p className={styles.project_description}>
                   {' '}
@@ -132,7 +131,7 @@ const Home: React.FC = () => {
             </div>
 
             <div className={styles.card2}>
-              <a href="">
+              <a href="*/">
                 <h2 className={styles.project_name}> Camper App </h2>{' '}
                 <p className={styles.project_description}>
                   {' '}
@@ -144,7 +143,7 @@ const Home: React.FC = () => {
             </div>
 
             <div className={styles.card3}>
-              <a href="">
+              <a href="*/">
                 <h2 className={styles.project_name}> Easy Bank </h2>{' '}
                 <p className={styles.project_description}>
                   {' '}
@@ -156,7 +155,7 @@ const Home: React.FC = () => {
             </div>
 
             <div className={styles.card4}>
-              <a href="">
+              <a href="*/">
                 <h2 className={styles.project_name}> Big Bus </h2>{' '}
                 <p className={styles.project_description}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.A
@@ -178,7 +177,7 @@ const Home: React.FC = () => {
             </div>
 
             <div className={styles.card6}>
-              <a href="">
+              <a href="*/">
                 <h2 className={styles.project_name}> Mirror Investments </h2>{' '}
                 <p className={styles.project_description}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.A

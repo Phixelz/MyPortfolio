@@ -1,9 +1,6 @@
 .container {
   background: #ffffff;
   min-height: 100vh;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -16,7 +13,7 @@
 }
 
 .hero {
-  max-width: 920px;
+  max-width: 100%;
   margin: 0 2rem;
   display: flex;
   height: 500px;
@@ -66,13 +63,12 @@
 }
 
 .resume_button {
-  margin-top: 2rem;
+  margin-top: 32px;
   background: #ffffff;
-  max-width: 220px;
-  padding: 1rem;
-  font-size: 1.1rem;
-  font-family: Consolas;
-  font-weight: 600;
+  max-width: 200px;
+  padding: 0.875rem;
+  font-size: 1rem;
+  font-weight: 700;
   border-radius: 4px;
   border: #323232 solid 1px;
 }
@@ -173,7 +169,7 @@
 }
 
 .grid_cards div {
-  flex: 1 1 400px;
+  flex: 1 1 500px;
 }
 
 .card1 {
@@ -228,6 +224,8 @@
 }
 
 .timeline {
+  align-content: center;
+  align-items: center;
   padding-top: 2rem;
   padding-bottom: 3rem;
   margin: 0 3rem;
@@ -236,17 +234,18 @@
 @media (min-width: 1200px) {
   .hero,
   .title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .resume_button {
-    padding: 1.25rem;
+    font-size: 1rem;
+    padding: 0.875rem;
     margin-top: 48px;
   }
 }
 
 @media (max-width: 600px) {
-  .header {
+  .header_name {
     font-size: 1.25rem;
   }
 
@@ -332,3 +331,4 @@
     font-size: 0.875rem;
   }
 }
+
