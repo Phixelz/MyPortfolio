@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/styles.module.css'
+import styles from '../styles/styles.module.scss'
 
 const Home: React.FC = () => {
   return (
