@@ -9,8 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "^16.9.1",
-    "@types/react": "^17.0.20",
+    "@types/config": "^0.0.39",
+    "@types/node": "^16.9.4",
+    "@types/react": "^17.0.22",
     "eslint-config": "^0.3.0",
     "feather": "^0.0.6",
     "feather-icons": "^4.28.0",
