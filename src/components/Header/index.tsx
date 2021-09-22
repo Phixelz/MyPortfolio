@@ -13,10 +13,11 @@ export function Header() {
     <header>
       <div className={styles.wrapper}>
         <h1>Phillipi Alves.</h1>
-
+{/*
         <button type="button" onClick={handleToggleMenu}>
           <FiMenu />
         </button>
+        */}
       </div>
     </header>
   )

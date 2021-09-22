@@ -13,7 +13,7 @@ export function AboutUs() {
 
       <ul>
         <li>
-          <h3>User Experience Analyst Pleno - SPC Brasil</h3>
+          <h3>UX Designer Pleno - SPC Brasil</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
         </li>
         <li>
