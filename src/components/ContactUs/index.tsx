@@ -11,12 +11,19 @@ export function ContactUs() {
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta."
       />
 
+      <a href="mailto:phillipi.alves@gmail.com">
+        <button type="button">Contate-me</button>
+      </a>
+
+      {/*
       <form>
         <input type="text" name="name" placeholder="Nome Completo" />
         <input type="email" name="email" placeholder="E-mail" />
         <textarea name="menssage" rows={3} placeholder="Mensagem"></textarea>
         <button type="submit">Enviar</button>
       </form>
+ */}
+
     </section>
   )
 }

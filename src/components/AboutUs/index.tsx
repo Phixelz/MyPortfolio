@@ -13,19 +13,19 @@ export function AboutUs() {
 
       <ul>
         <li>
-          <h3>UX Designer Senior</h3>
+          <h3>User Experience Analyst Pleno - SPC Brasil</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
         </li>
         <li>
-          <h3>UX Designer Pleno</h3>
+          <h3>UX/UI Designer - Mundo Wap</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
         </li>
         <li>
-          <h3>UI Designer Senior</h3>
+          <h3>UX/UI Designer - G-Digital</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
         </li>
         <li>
-          <h3>UI Designer</h3>
+          <h3>UI Designer - Amigoo</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
         </li>
       </ul>
