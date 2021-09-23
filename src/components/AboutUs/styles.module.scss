@@ -1,8 +1,12 @@
 .wrapper {
   display: flex;
+  max-width: 1200px;
   flex-direction: column;
-
+  align-items: left;
+  margin: 0 auto;
   padding: 4.6rem 2.4rem;
+ 
+
 
   background-color: var(--gray-200);
 
