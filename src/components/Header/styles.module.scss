@@ -14,24 +14,12 @@
   background-color: transparent;
 
   h1 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: var(--gray-700);
-  }
 
-  button {
-    width: 2.4rem;
-    height: 2.4rem;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-color: transparent;
-
-    border: 0;
 
     svg {
-      font-size: 2.4rem;
+      font-size: 2.2rem;
     }
   }
 }

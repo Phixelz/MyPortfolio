@@ -1,7 +1,5 @@
 import { useCallback } from 'react'
 
-import { FiMenu } from 'react-icons/fi'
-
 import styles from './styles.module.scss'
 
 export function Header() {
@@ -13,11 +11,6 @@ export function Header() {
     <header>
       <div className={styles.wrapper}>
         <h1>Phillipi Alves.</h1>
-{/*
-        <button type="button" onClick={handleToggleMenu}>
-          <FiMenu />
-        </button>
-        */}
       </div>
     </header>
   )

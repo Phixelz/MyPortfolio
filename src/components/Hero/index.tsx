@@ -7,5 +7,6 @@ export function Hero() {
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas.</p>
         <button type="button">Download Resume</button>
     </section>
+    
   )
 }
