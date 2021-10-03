@@ -27,7 +27,7 @@ export function Projects() {
         </li>
         <li>
         <a href="">
-          <h3>Mirror Investments</h3>
+          <h3>Mirror Analytic</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu.</p>
           </a>
         </li>
