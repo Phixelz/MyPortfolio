@@ -1,14 +1,11 @@
 .wrapper {
   display: flex;
-
+  align-items: center;
   justify-content: space-between;
 
   max-width: 1200px;
-  flex-direction: column;
-  margin: 0 auto;
 
-  
-  margin-top: 3.2rem;
+  margin: 3.2rem auto 0;
   padding: 0 2.4rem;
 
   background-color: transparent;
@@ -20,6 +17,142 @@
 
     svg {
       font-size: 2.2rem;
+    }
+  }
+
+  button {
+    width: 2.4rem;
+    height: 2.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2.4rem;
+
+    background-color: transparent;
+    border-color: transparent;
+
+    @media (min-width: '810px') {
+      display: none;
+    }
+  }
+}
+
+.navigation {
+  position: absolute;
+
+  width: 100vw;
+  height: calc(100vh - 5.4rem);
+
+  top: 5.4rem;
+  left: -100vw;
+
+  background-color: var(--white);
+
+  transition: all 0.3s;
+
+  padding: 9.1rem 2.4rem 3.4rem;
+
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+  }
+
+  ul[class="nav"] {
+    flex-direction: column;
+
+    li:not(:last-child) {
+      margin-bottom: 6.4rem;
+    }
+
+    a {
+      display: block;
+
+      color: var(--gray-800);
+
+      font-weight: 700;
+      font-size: 2.2rem;
+
+      line-height: 2.6rem;
+    }
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    padding: 1.6rem 0;
+
+    font-weight: 700;
+    font-size: 1.4rem;
+
+    line-height: 1.6rem;
+
+    color: var(--gray-800);
+    background-color: transparent;
+
+    border-color: var(--gray-800);
+    border-radius: 0.4rem;
+  }
+
+  ul[class="social"] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 2.4rem;
+
+    padding: 0 9.1rem;
+  }
+
+  &[aria-hidden='false'] {
+    left: 0;
+  }
+
+  @media (min-width: '810px') {
+    position: unset;
+
+    padding: 0;
+
+    width: auto;
+    height: auto;
+
+    button {
+      display: none;
+    }
+
+    ul[class="nav"] {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+
+      li:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 4.8rem;
+      }
+
+      a {
+        font-weight: 400;
+        font-size: 1.6rem;
+
+        line-height: 1.87rem;
+      }
+    }
+
+    ul[class="social"] {
+      display: none;
     }
   }
 }
