@@ -38,8 +38,14 @@ export function Projects() {
           </a>
         </li>
         <li>
-        <a href="https://github.com/Phixelz/gotravel" target="blank">
+        <a href="">
           <h3>Go Travel</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu.</p>
+          </a>
+        </li>
+        <li>
+        <a href="">
+          <h3>My Portfolio (Git)</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu.</p>
           </a>
         </li>
