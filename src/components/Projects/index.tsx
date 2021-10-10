@@ -4,7 +4,7 @@ import styles from './styles.module.scss'
 
 export function Projects() {
   return (
-    <section className={styles.wrapper}>
+    <section className={styles.wrapper} id="projects">
       <Title
         title="Projetos"
         subtitle="02. Meus Projetos"

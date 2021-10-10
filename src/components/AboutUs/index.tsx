@@ -4,7 +4,7 @@ import styles from './styles.module.scss'
 
 export function AboutUs() {
   return (
-    <section className={styles.wrapper}>
+    <section className={styles.wrapper} id="about">
       <Title
         title="Sobre mim"
         subtitle="01. Experiência"

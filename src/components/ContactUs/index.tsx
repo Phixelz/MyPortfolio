@@ -4,7 +4,7 @@ import styles from './styles.module.scss'
 
 export function ContactUs() {
   return (
-    <section className={styles.wrapper}>
+    <section className={styles.wrapper} id="contact">
       <Title
         title="Contato"
         subtitle="03. Contate-me"
