@@ -8,7 +8,7 @@ export function ContactUs() {
       <Title
         title="Contato"
         subtitle="03. Contate-me"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta."
+        description="Vamos conversar?"
       />
 
       <a href="mailto:phillipi.alves@gmail.com">
