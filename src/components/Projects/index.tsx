@@ -22,7 +22,7 @@ export function Projects() {
         <li>
         <a href="">
           <h3>Camper App</h3>
-          <p>Aplicativo para campistas que utiliza geolocalização para encontrar áreas de campings com rotas, preços, e comodidades do local.</p>
+          <p>Aplicativo para campistas que utiliza geolocalização para encontrar áreas de campings com rotas, preços e comodidades do local.</p>
           </a>
         </li>
         <li>
