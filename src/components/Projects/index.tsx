@@ -8,7 +8,7 @@ export function Projects() {
       <Title
         title="Projetos"
         subtitle="02. Meus Projetos"
-        description="Abaixo é possível visualizar alguns projetos de aplicações desenvolvidos por mim"
+        description="Alguns projetos de aplicações desenvolvidos por mim"
       />
 
       <ul>
