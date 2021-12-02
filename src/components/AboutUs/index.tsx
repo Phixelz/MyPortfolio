@@ -26,7 +26,7 @@ export function AboutUs() {
         </li>
         <li>
           <h3>UI Designer - Amigoo</h3>
-          <p>Criação de landing page + formulário com foco em conversão.</p>
+          <p>Contratação freelancer para criação de interface de formulário com foco em conversão.</p>
         </li>
       </ul>
     </section>
