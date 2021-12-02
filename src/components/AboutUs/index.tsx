@@ -26,7 +26,7 @@ export function AboutUs() {
         </li>
         <li>
           <h3>UI Designer - Amigoo</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A adipiscing ac porta egestas. Turpis viverra egestas arcu pulv inar bibendum.</p>
+          <p>Criação de landing page + formulário com foco em conversão.</p>
         </li>
       </ul>
     </section>
