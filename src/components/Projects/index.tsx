@@ -18,7 +18,6 @@ export function Projects() {
           <p>Projeto mobile com objetivo de fornecer cursos com preços acessíveis, utilizando pontos para obtenção de novos cursos.</p>
           </a>
         </li>
-        
         <li>
         <a href="">
           <h3>Camper App</h3>
@@ -45,8 +44,8 @@ export function Projects() {
         </li>
         <li>
         <a href="">
-          <h3>My Portfolio (Git)</h3>
-          <p>Portfólio desemvolvido em Next.js </p>
+          <h3>Easy Bank</h3>
+          <p>Projeto focado em chatbot para solucionar problemas de atendimento ao cliente.</p>
           </a>
         </li>
       </ul>
