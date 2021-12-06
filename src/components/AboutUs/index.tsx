@@ -8,7 +8,7 @@ export function AboutUs() {
       <Title
         title="Sobre mim"
         subtitle="01. Experiência"
-        description="UX Designer autodidata com 5 anos de experiência criando projetos para startups e empresas de médio e grande porte."
+        description="UX Designer autodidata com 5 anos de experiência, criando projetos para startups e empresas de médio e grande porte."
       />
 
       <ul>
