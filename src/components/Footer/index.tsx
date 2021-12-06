@@ -1,6 +1,6 @@
 import { useCallback } from 'react'
 
-import { FiArrowUp } from 'react-icons/fi'
+import { FiArrowUp, FiHeart } from 'react-icons/fi'
 
 import styles from './styles.module.scss'
 
@@ -16,7 +16,10 @@ export function Footer() {
     <footer className={styles.wrapper}>
       <hgroup>
         <h2>Phillipi Alves.</h2>
-        <p>All rights reserved</p>
+        <p className={styles.icon}>Feito com <FiHeart/> por mim
+       
+
+        </p>
       </hgroup>
 
       <button type="button" onClick={handleScrollToTop}>
