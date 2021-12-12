@@ -16,12 +16,9 @@ export function Footer() {
     <footer className={styles.wrapper}>
       <hgroup>
         <h2>Phillipi Alves.</h2>
-        <p className={styles.icon}>Feito com <FiHeart/> por mim
-       
-
+        <p className={styles.iconheart}>Desenvolvido com <FiHeart/> por mim       
         </p>
       </hgroup>
-
       <button type="button" onClick={handleScrollToTop}>
         <FiArrowUp />
       </button>
