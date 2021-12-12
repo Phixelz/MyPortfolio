@@ -18,7 +18,7 @@ export function AboutUs() {
         </li>
         <li>
           <h3>UX/UI Designer - Mundo Wap</h3>
-          <p>Abr 2019 - Dez 2020 -  </p>
+          <p>Abr 2019 - Dez 2020</p>
         </li>
         <li>
           <h3>UX/UI Designer - G-Digital</h3>
