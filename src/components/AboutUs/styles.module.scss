@@ -24,6 +24,7 @@
       flex-direction: column;
 
       padding-left: 3.2rem;
+      padding-bottom: 8rem;
 
       position: relative;
 
@@ -56,12 +57,13 @@
       p {
         font-size: 1.3rem;
         line-height: 1.5rem;
+        margin-top: 0.8rem;
       }
     }
 
     li:not(:last-child) {
       p {
-        margin-bottom: 8rem;
+        margin-top: 0.8rem;
       }
 
       & ::after {

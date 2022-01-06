@@ -27,7 +27,7 @@ export function Projects() {
         <li>
         <a href="">
           <h3>Mirror Analytic</h3>
-          <p>Aplicação mobile com foco em planejamento financeiro com ênfase em cálculo de dividendos.</p>
+          <p>Aplicativo focado em planejamento financeiro e ênfase em cálculo de dividendos.</p>
           </a>
         </li>
         <li>
@@ -44,8 +44,8 @@ export function Projects() {
         </li>
         <li>
         <a href="">
-          <h3>Easy Bank</h3>
-          <p>Projeto focado em chatbot para solucionar problemas de atendimento ao cliente.</p>
+          <h3>Cadastro Positivo (Contestação)</h3>
+          <p>Projeto desenvolvido em co-participação com outros UXers e Devs do SPC Brasil.</p>
           </a>
         </li>
       </ul>
