@@ -11,7 +11,7 @@ const Home: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Phillipi Alves.</title>
+        <title>PhillipiAlves.</title>
       </Head>
 
       <Header />
