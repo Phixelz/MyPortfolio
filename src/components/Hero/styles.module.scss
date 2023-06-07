@@ -1,29 +1,33 @@
+.container {
+  background-color: var(--blue-700);
+}
+
 .wrapper {
   padding: 8rem 2.4rem;
 
-  max-width: 1200px;
+  max-width: 960px;
 
-  
   flex-direction: column;
   align-items: left;
   margin: 0 auto;
-
-  background-color: transparent;
 
   display: flex;
 
   position: relative;
 
   h2 {
-    font-size: 2.2rem;
+    font-size: 2.7rem;
     font-weight: 400;
+    color: var(--white);
+
+    max-width: 450px;
 
     line-height: 2.57rem;
 
     margin-bottom: 1.6rem;
 
     span {
-      font-weight: 700;
+      font-weight: 500;
       color: var(--cyan);
     }
   }
@@ -31,26 +35,57 @@
   p {
     font-size: 1.5rem;
     line-height: 1.8rem;
+
+    max-width: 700px;
+  }
+
+  .subtitle {
+    font-size: 1.4rem;
+    line-height: 2rem;
   }
 
   button {
-    margin-top: 3.2rem;
+    margin-top: 3rem;
 
-    width: 15rem;
+    width: 16rem;
     height: 4rem;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background-color: var(--white);
-    border: 0.1rem solid var(--gray-700);
+    background-color: var(--cyan);
+    border: transparent;
     border-radius: 0.2rem;
 
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
 
     line-height: 1.4rem;
   }
 
+  footer {
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+  }
+
+  .avatar {
+    width: 56px;
+    border: 0.1rem solid var(--blue-700);
+    border-radius: 50%;
+  }
+
+  .avatar_group {
+    font-size: 1.1rem;
+    margin: 0 1.4rem;
+  }
+
+
+  @media (min-width: 500px) {
+    .circular_text {
+    display: none;
+  }
+}
 }
