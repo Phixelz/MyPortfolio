@@ -1,17 +1,21 @@
+.container {
+  background-color: var(--blue-400);
+}
+
 .wrapper {
   display: flex;
-  max-width: 1200px;
+  max-width: 960px;
   flex-direction: column;
   align-items: left;
   margin: 0 auto;
   padding: 4.6rem 2.4rem;
+  
+  color: var(--white);
 
   .description {
     margin-top: 1rem;
   }
    
-
-  background-color: var(--gray-200);
 
   ul {
     margin-top: 4.8rem;
@@ -39,7 +43,7 @@
         top: 0;
         left: 0;
 
-        border: 0.1rem solid var(--gray-700);
+        border: 0.1rem solid var(--white);
         border-radius: 50%;
 
         box-sizing: border-box;
@@ -48,6 +52,8 @@
       h3 {
         font-size: 1.6rem;
         font-weight: 700;
+        color: var(--white);
+        
 
         line-height: 1.9rem;
 
@@ -58,6 +64,8 @@
         font-size: 1.3rem;
         line-height: 1.5rem;
         margin-top: 0.8rem;
+
+        color: var(--white);
       }
     }
 
@@ -72,7 +80,7 @@
         width: 0.1rem;
         height: calc(100% - 3.2rem);
 
-        background: var(--gray-700);
+        background: var(--white);
 
         position: absolute;
 
