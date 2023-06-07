@@ -1,21 +1,22 @@
-import { Title } from '../Title'
+import { Title } from "../Title";
 
-import styles from './styles.module.scss'
+import styles from "./styles.module.scss";
 
 export function ContactUs() {
   return (
-    <section className={styles.wrapper} id="contact">
-      <Title
-        title="Contato"
-        subtitle="03. Contate-me"
-        description="Vamos conversar?"
-      />
+    <div className={styles.container}>
+      <section className={styles.wrapper} id="contact">
+        <Title
+          title="Contato"
+          subtitle="03. Contate-me"
+          description="Vamos conversar?"
+        />
 
-      <a href="mailto:phillipi.alves@gmail.com">
-        <button type="button">Contate-me</button>
-      </a>
+        <a href="mailto:phillipi.alves@gmail.com">
+          <button type="button">Contate-me</button>
+        </a>
 
-      {/*
+        {/*
       <form>
         <input type="text" name="name" placeholder="Nome Completo" />
         <input type="email" name="email" placeholder="E-mail" />
@@ -23,7 +24,7 @@ export function ContactUs() {
         <button type="submit">Enviar</button>
       </form>
  */}
-
-    </section>
-  )
+      </section>
+    </div>
+  );
 }
