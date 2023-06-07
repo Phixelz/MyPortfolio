@@ -19,10 +19,14 @@
     --red-300: rgba(144, 144, 144, 0.08);
     --red-800: rgba(28, 28, 28, 0.08);
 
+
+    --blue-400: #1A2D3C;
+    --blue-700: #12212C;
     --blue: rgba(24, 47, 255, 0.08);
 
     --cyan: #17D1A5;
     --cyan-200: rgba(38, 178, 145, 0.08);
+    
 
     --white: #ffffff;
 }
@@ -40,7 +44,7 @@ body, input, textarea, select, button {
     font-weight: 400;
     font-size: 1rem;
     font-family: 'Consolas', monospace;
-    color: var(--gray-700);
+    color: var(--white);
 }
 
 button {
