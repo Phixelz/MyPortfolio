@@ -1,0 +1,45 @@
+.container {
+  background-color: var(--primary);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-left: 0.1rem solid var(--border);
+
+  max-width: 960px;
+  margin: auto;
+
+
+  h1 {
+    font-size: 2.7rem;
+    font-weight: 500;
+
+    text-transform: uppercase;
+    letter-spacing: 0.1875rem;
+
+    padding: 0 2.4rem;
+  }
+
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+
+    font-size: 2.4rem;
+    color: var(--gray-900);
+
+    border-bottom: 0rem solid var(--border);
+    border-top: 0rem solid var(--border);
+    border-right: 0.1rem solid var(--border);
+    border-left: 0.1rem solid var(--border);
+
+    background: transparent;
+
+  }
+
+}
